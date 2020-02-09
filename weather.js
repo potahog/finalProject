@@ -1,0 +1,1 @@
+const weatherContainer = document.querySelector(".js-weather");
