@@ -23,6 +23,10 @@ function init(){
     if(userForm){
         userForm.addEventListener("submit", handleSubmit);
     }
+
+    if(userInput){
+        userInput.placeholder="Enter the your name";
+    }
     loadedUserName();
 }
 

@@ -136,7 +136,7 @@ function init() {
     }
 
     if (todoInput) {
-        todoInput.placeholder = "write a to do";
+        todoInput.placeholder = "Write a to do";
     }
     loadTodoList();
 }
