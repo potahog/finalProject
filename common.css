@@ -46,6 +46,11 @@ body {
     top: 20px;
 }
 
+.js-user #name{
+    color: #ecf0f1;
+    text-shadow: 2px 2px #2c3e50, -2px -2px #bdc3c7;
+}
+
 .js-todos{
     width: 100%;
     margin: auto;
@@ -98,6 +103,7 @@ body {
 .js-weather {
     position: absolute;
     font-weight: 700;
+    color: #ecf0f1;
     text-shadow: 1px 1px #2c3e50, -1px -1px #ecf0f1;
     width: 100%;
     margin: auto;
