@@ -134,7 +134,7 @@ li button {
 }
 
 @keyframes fadeIn{
-    form {
+    from {
         opacity: 0;
     }
     to {
