@@ -19,9 +19,6 @@ function handleSwitch(event) {
     const btn = event.target;
     const li = btn.parentNode;
 
-    console.log(li);
-    console.log(pendings);
-
     const selPending = pendings.filter(function (pending) {
         return pending.id === parseInt(li.id);
     });
